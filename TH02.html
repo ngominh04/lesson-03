@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dùng thẻ dowload</title>
+</head>
+<body>
+    <fieldset >
+        <legend>
+            <b>Thông tin báo cáo</b> 
+        </legend>
+        <table border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <label for="1">Thiếu kế giao diện web</label>
+                </td>
+                <td>
+                    <progress value="80" max="100" id="1"></progress>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="2">Phân tích sơ đồ thực thể</label></td>
+                <td><progress value="50" max="100" id="2"></progress></td>
+            </tr>
+            <tr>
+                <td><label for="3" >Viết tài liệu phân tích thiết kế</label></td>
+                <td><progress value="24" max="100" id="3"></progress></td>
+            </tr>
+        </tbody>
+    </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><b>Thông tin danh sách môn học</b></legend>
+        <input list="monhoc" name="monhoc">
+    <datalist id="monhoc" >
+        <option value="html"></option>
+        <option value="Sinh học"></option>
+        <option value="Cơ sở dữ liệu"></option>
+        <option value="Front end"></option>
+        <option value="Khoa học kỹ thuật"></option>
+        <option value="Kinh tế chính trị Mác-lênin"></option>
+        <option value="thiết kế web"></option>
+    </datalist>
+    </fieldset>
+</body>
+</html>
